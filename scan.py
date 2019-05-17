@@ -1,4 +1,4 @@
-#Jangan ganti author , hargai creator cape loh buat nya
+#JANGAN GANTI SCRIPT NIH OK!KALO TAK AKU SEPAK KO!
 
 import LIST
 from LIST.id import *
@@ -33,8 +33,8 @@ def main():
     print("{}  |P   \\\__//    | ").format(w)
     print("  |CS   '--'     | ")
     print("{}  '--------------'----------{}------------------.  ").format(r,w)
-    print("{}  | {}Author  : {}HVmbl3 {}     | {}INDO{}N{}{}ESIA         | ").format(r,w,r,w,r,ir,reset,w)
-    print("{}  | {}Youtube : {}Shodiq 2701 {}| {}+62-813-6487-3762 {}|").format(r,w,w,w,lgray,w)
+    print("{}  | {}Author  : {}S1L3NT {}     | {}MALAY{}SIA         | ").format(r,w,r,w,r,ir,reset,w)
+    print("{}  | {}Youtube : {}Xh4ck Squad {}| {}+011289344591 {}|").format(r,w,w,w,lgray,w)
     print("{}  '------------------------------------{}-------'  ").format(r,w)
     print ("  {}[ 1 ] {}Italy").format(r,w)
     print ("  {}[ 2 ] {}Indonesia").format(r,w)
@@ -44,7 +44,8 @@ def main():
     print ("  {}[ 6 ] {}Korea").format(r,w)
     print ("  {}[ 7 ] {}German").format(r,w)
     print ("  {}[ 8 ] {}Turkey").format(r,w)
-    print ("  {}[ 9 ] {}Exit").format(r,w)
+    print ("  {}[ 9 ] {}Malaysia").format(r,w)
+    print ("  {}[ 10 ] {}Exit").format(r,w)
     print ""
     select = input("\033[1;31m[ \033[1;37mSelect@Number \033[1;31m]\033[1;37m> ")
     filtering(select)
@@ -69,6 +70,8 @@ def filtering(pilih):
     elif pilih == 8:
         turkey()
     elif pilih == 9:
+        malaysia
+    elif pilih == 10:
         print (r+"Exiting ..."+w)
         os.sys.exit()
     else:
